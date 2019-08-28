@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "hexo server",
-    "write": "hexo new 'title'",
+    "write": "hexo new",
+    "draft": "hexo new draft",
+    "draft:publish": "hexo publish",
+    "preview": "hexo server",
+    "preview:draft": "hexo server --draft",
     "deploy": "hexo clean && hexo deploy -g"
   },
   "hexo": {
