@@ -2,13 +2,14 @@
 
 注意：
 - 以下所有的title都需要加英文双引号""
+- git需要两个仓库，一个为此仓库用来写博客，一个为静态文件提交的仓库，即github pages的仓库，在`_config.yml`的`repo`中修改配置链接
 
-## 博客
+### 博客
 ``` bash
 npm run write -- title
 ```
 
-## 草稿
+### 草稿
 ``` bash
 # 新建草稿
 npm run draft -- title
@@ -17,7 +18,7 @@ npm run draft -- title
 npm run draft:publish -- title
 ```
 
-## 预览
+### 预览
 ``` bash
 # 常规预览
 npm run preview
@@ -26,7 +27,7 @@ npm run preview
 npm run preview:draft
 ```
 
-## 发布
+### 发布
 ``` bash
 npm run deploy
 ```
